@@ -21,6 +21,12 @@ public class StringExplorer
 		System.out.println ("After toLowerCase(), sample = " + sample);
 		
 		//  Try other methods here:
+		int notFoundPsn = sample.indexOf("slow");
+		System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
+
+		position = sample.indexOf("quick",5);
+		System.out.println("sample.indexOf(\"quick\") starting at position 5 = " + position);
+		
 
 	}
 

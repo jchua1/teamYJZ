@@ -57,7 +57,7 @@ public class Magpie2
 	    }
 	else if (statement.indexOf("school") >= 0)
 	    {
-		response = "I hate that too.";
+		response = "I hate school.";
 	    }
 	else if (statement.indexOf("Trump") >= 0)
 	    {
